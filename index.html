@@ -7,18 +7,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <title>Hoja de Vida(HV)</title>
+        <link rel="stylesheet" href="styles/estilo.css">
     </head>
     <body>
         <!--SE coloca el titulo que seria hoja de vida centrado con el comando style y text align que es para alinear el texto-->
         <!--Se realiza la colocacion del titulo central en un color y con un tamaño de 40px-->
-        <h1 style="text-align: center; color: darkslategrey; font-size: 40px; text-decoration: underline;">Hoja de Vida</h1>
+        <div>
+            <h1>Hoja de Vida</h1>
+        </div>
         <br>
         <!--Se coloca lo que seria los datos personales como nombres apellidos edad etc-->
         <!--Se coloca lo que es h2 y h3 para que el texto o titulo de estos mismo no sea tan grande -->
         <!--Se realiza de igual manera lo que es poner solo de un color a la parte de datos de personales-->
-        <section>
-            <h2 style="color: darkred; font-size: 30px; text-align: left;">Datos Personales</h2>
-            <div style="width: 40%; border: solid; color: darkred; text-align: center;">
+        <section class="caja">
+            <h2>Datos Personales</h2>
+            <div class="contenido">
                 <p>Nombres: Pablo Andres </p>
                 <p>Apellidos: Bustillos Solorzano</p>
                 <p>Edad: 19 años</p>
@@ -34,11 +37,11 @@
         <br>
         <!--Aqui se coloca lo que es el perfil una descripcion corta sobre nosotros mismo con habilades nuestras-->
         <!--Se coloca el titulo de perfil de un color al igual que la descripcion de perfil en un cuadro del mismo color-->
-        <section>
-            <h2 style="color: darkslateblue; font-size: 30px;">Perfil</h2>
+        <section class="caja">
+            <h2>Perfil</h2>
             <!--Se encierra en un recuadro al texto y se lo reduce para que no se vea tan agrandado de largo en la pagina sino como mas
             resumido y se lo coloco el mismo color del titulo en este caso morado-->
-            <div style="width: 40%; border: solid; color: darkslateblue;">
+            <div class="contenido">
                 <p>
                     Soy una persona puntual, responsable, honesto y confiable. Me caracterizo por mi 
                     disposición de aprender y de capacitarme para hacer un excelente trabajo tanto para 
@@ -50,9 +53,9 @@
         <br>
         <!--Aqui coloque lo que es mi formacion como mi estudios de colegio donde me gradue y que titulo obtuve-->
         <!--Tambien coloque lo que seria mi formacion actual como estudiante del ITQ de la carrera de Desarollo de Software-->
-        <section>
-            <h2 style="color: darkgreen; font-size: 30px;">Formación</h2>
-            <div style="width: 40%; border: solid; color: darkgreen; text-align: center;">
+        <section class="caja">
+            <h2>Formación</h2>
+            <div class="contenido">
                 <p>Graduado de Bachiller en Ciencias (BGU)</p>
                 <p>Nombre de la institucion: Unidad Educativa Particular Andrew</p>
                 <p>Formacion en progreso como Desarollador de Software</p>
@@ -62,9 +65,9 @@
         <br>
         <!--Aqui coloque lo que son mis habilidades en que soy bueno como cualidades tambien agregue-->
         <!--Se repite lo mismo como lo que hizo con datos personales, perfil, formacion pero esta vez con habilidades-->
-        <section>
-            <h2 style="color: black; font-size: 30px;">Habilidades</h2>
-            <div style="width: 40%; border: solid; color: black; text-align: center;">
+        <section class="caja">
+            <h2>Habilidades</h2>
+            <div class="contenido">
                 <p>Responsable</p>
                 <p>Puntual</p>
                 <p>Honesto</p>
@@ -76,9 +79,9 @@
         <br>
         <!--Aca coloque lo que seria los idiomas que manejo tanto a la perfeccion como algun otro idioma que este aprendiendo-->
         <!--Se coloca lo mismo que los anteriores-->
-        <section>
-            <h2 style="color: darkblue; font-size: 30px;">Idiomas</h2>
-            <div style="width: 40%; border: solid; color: darkblue; text-align: center;">
+        <section class="caja">
+            <h2>Idiomas</h2>
+            <div class="contenido">
                 <p>Ingles basico</p>
                 <p>Español</p>
             </div>
@@ -86,9 +89,11 @@
 
         <!--En esta parte se colocora lo que son rutas que nos van dirigir a mis redes solciales mas esenciales y tambien colocare un
         cancion de youtube de referencia en mis gustos personales-->
-        <div style="color: darkolivegreen; font-size: 30px; text-align: center; ">
-            <h3 style="border: solid; color: darkolivegreen;">Redes</h3>
-            <a href="redes/misredes.html">Ir a mis redes</a>
-        </div>
+        <section class="caja">
+            <div class="contenido">
+             <h2>Redes</h2>
+                <a href="redes/misredes.html">Ir a mis redes</a>
+            <div>
+        </section>
     </body>
 </html>

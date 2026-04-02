@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(45, 27, 71);
+    font-family: Arial, sans-serif;
+}
+p{
+    color: black;
+    margin: 5px 0;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    background-color: black; 
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.caja{
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+h2{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+/*ESTILOS PARA REDES*/
+.contenedor{
+    text-align: center;
+    margin-top: 50px;
+}
+
